@@ -1,0 +1,126 @@
+.home1{
+    padding-left: 1cm;
+}
+.title{
+    
+    text-align: center;
+    background-color: #dbe2e0;
+}
+
+.sertabel1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 100px;
+    padding: 1cm;
+    border-spacing: 30px;
+    
+}
+.tdata{
+    color:rgb(247, 242, 242);
+    border-radius: 2cm;
+    width: 10cm;
+    height: 10cm; 
+    background-color:rgba(134, 94, 69, 0.935);
+    box-shadow: 0 4px 8px 0 rgba(85, 60, 196, 0.967), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fig{
+    text-align: center;
+    padding: 0.5cm;  
+}
+
+.tdata img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+}
+.tdata p{
+    font-size: 15px;
+    font-family: cursive;
+    color: #ffffff;
+}
+.tdata:hover{
+    background-color: #33363eba;
+    color: #000000;
+    box-shadow: 0 6px 12px 0 rgba(0, 21, 255, 0.702), 0 6px 20px 0 rgba(10, 102, 50, 0.19);
+
+}
+.footer{
+    
+    background-color: #99ffe6;
+}
+.copyr{
+    
+    background-color: #99ffe6;
+    align-items: center;
+}
+#imgs{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.caption{
+    text-align: center;
+}
+.captiontxt{
+    line-height: 0.5cm;
+
+}
+#btn{
+    background-color:#009933;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: #ffffff;
+    border-color: #009933;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+}
+#btn:hover{
+    background-color:#00e64d;
+}
+#cp{
+    text-align: center;
+}
+#cp:hover{
+    font-size: 20px;
+}
+h3{
+    font-family:cursive;
+    color: #000000;
+}
+#txt{
+    font-family: cursive;
+    color:#660066;
+}
+
+.social{
+    text-align: center;
+    color: black;
+    padding: 0.5cm;
+ }
+ .social a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 8px;
+ }
+ .social:hover a{
+   size: 5px;
+ }
+
+ .mt-3 {
+    align-self: center;
+
+ }
+
+ .copy{
+    align-content: center;
+    align-self: center;
+ }

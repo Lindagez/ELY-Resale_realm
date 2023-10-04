@@ -1,0 +1,326 @@
+  /* CSS for features section */
+  #features {
+    background-color: #F7F7F7;
+    padding: 100px 0;
+  }
+
+  .feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .feature-content  {
+    max-width: 70%;
+    font-size: larger;
+    color: #e10f0f;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  .feature img {
+    max-width: 60%;
+    border-radius:100px;
+    margin-right: 0;
+    padding-right: 0px;
+  }
+
+  .about-us{
+    color:rgb(0, 0, 0);
+    font-size: larger;
+    margin-left: 30px;
+    margin-right: 50px;
+    /* font-size: xx-large; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+
+  .about-us .team{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    }
+
+    .contact-form {
+      background-color: #111511;
+    }
+
+    section#contact {
+      background-color: #111511;
+    }
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #f4f1f1;
+    }
+
+  .feature-container {
+    color:rgb(255, 253, 253);
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(61, 38, 38);
+  }
+
+  .feature-content p {
+    font-size: 50px;
+    color: #0209cb;
+    margin-bottom: 10px;
+  }
+
+  .feature h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .feature p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  /* Header style */
+header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Set background color and font styles for the header */
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Center the navigation and remove default list styles */
+  .nav {
+    text-align: center;
+    
+  }
+
+  .nav .ely {
+    font-size: 24px;
+    color:#00ff66;
+    font-weight: bold;
+    margin-right: 600px;
+    justify-content: left;
+  }
+  
+.nav a{
+  color: #ffffff;
+}
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  /* Style the navigation links */
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  /* Add hover effect to the navigation links */
+  a:hover {
+    color: #ffcc00;
+  }
+
+  section#home {
+    position: relative;
+    background-color: #573b3b;
+    padding: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+ /* Set background color and font styles for the header */
+   header {
+    background-color: #000000;
+    padding: 10px;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 15%;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style the navigation */
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  /* Style the "ELY" name */
+  .ely {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  /* Style the logo */
+  .logo {
+    width: 20px; /* Adjust the size of the logo */
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  a {
+    color: #b5b7b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-align: right;
+    align-items: right;
+  }
+
+  /* Add hover effect to the navigation links */
+  a:hover {
+    color: #1275c6;
+  }
+   section#home {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #e10f0f;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Style the cover image container */
+  .cover-image {
+    position: relative;
+    height: 600px; /* Adjust the desired height */
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /* Style the cover image */
+  .cover-image img {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    text-align: center;
+    background: #fff;
+    height:auto;
+  }
+
+  /* Style the project info container */
+  .project-info {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .project-info .button {
+    text-align:center ;
+    margin-top: 20px;
+    font-size: larger;
+    width: 140px;
+    height: auto;
+  }
+  .project-info h3 {
+    font-size: 50px;
+
+    color:#000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align:center
+  }
+  
+
+  .project-info p {
+    font-size: 23px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #01002a;
+  }
+
+  .project-info h5 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  /* Style the button */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff66;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .button:hover {
+    color:white;
+    background-color: #4b0dc0;
+  }
+
+  .footer {
+    background-color: #000000;
+    padding: 20px;
+    color: #680a39;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .social i {
+    background-color: rgb(240, 224, 224);
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+
+  .image-container {
+    display: flex;
+  }
+  
+  .image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Adjust how the image fits into the container */
+  }
+  

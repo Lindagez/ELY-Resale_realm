@@ -1,0 +1,103 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .product-price,
+  .product-stock,
+  .product-description,
+  .product-user {
+    margin-bottom: 5px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #5cb85c;
+    margin-right: 5px;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+  }
+  
+  .add-product-form {
+    margin-top: 20px;
+  }
+  
+  .add-product-form h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .add-product-form form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .add-product-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .add-product-form input,
+  .add-product-form textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .add-product-form button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
