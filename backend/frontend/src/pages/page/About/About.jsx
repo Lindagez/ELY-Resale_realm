@@ -82,58 +82,7 @@ const About = () => {
                 </div>
             </section>
 
-            <section class="bg-gray-200 py-12">
-                <div class="container mx-auto">
-                    <h2 class="text-2xl font-bold mb-8">Our Team</h2>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-12">
-                            <div className='bg-white p-4 rounded-lg shadow-lg text-center  mx-2 my-2'>
-                                <img src="https://via.placeholder.com/150" alt="Team Member 1" class="rounded-full mx-auto mb-4" />
-                                <h4 class="text-xl font-bold">Esrael</h4>
-                                <p class="text-gray-600"></p>
-                                <div class="mt-4">
-                                    <a href="#" class="text-blue-500"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="text-blue-500"><i class="fab fa-facebook"></i></a>
-                                    <a href="#" class="text-blue-500"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-12">
-                            <div className='bg-white p-4 rounded-lg shadow-lg text-center  mx-2 my-2'>
-                                <img src="https://via.placeholder.com/150" alt="Team Member 2" class="rounded-full mx-auto mb-4" />
-                                <h4 class="text-xl font-bold">Lidiya</h4>
-                                <p class="text-gray-600"></p>
-                                <div class="mt-4">
-                                    <a href="#" class="text-blue-500"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="text-blue-500"><i class="fab fa-facebook"></i></a>
-                                    <a href="#" class="text-blue-500"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-12">
-                            <div className='bg-white p-4 rounded-lg shadow-lg text-center  mx-2 my-2'>
-                                <img src="https://via.placeholder.com/150" alt="Team Member 4" class="rounded-full mx-auto mb-4" />
-                                <h4 class="text-xl font-bold">Yoseph</h4>
-                                <p class="text-gray-600"></p>
-                                <div class="mt-4">
-                                    <a href="#" class="text-blue-500"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="text-blue-500"><i class="fab fa-facebook"></i></a>
-                                    <a href="#" class="text-blue-500"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            {/* <!-- Newsletter Subscription Section --> */}
-            <section class="bg-gray-100 py-12">
-                <div class="container mx-auto text-center">
-                    <h2 class="text-2xl font-bold mb-4">Thank you for choosing us as your trusted resale partner. Together, we can make a positive impact on both your wallet and the planet.</h2>
-                    {/* <p class="text-gray-600 mb-8">Stay up to date with our latest offers and news.</p> */}
-
-                </div>
-            </section>
             {/* 
   <section class="bg-gray-200 py-12">
     <div class="container mx-auto">
